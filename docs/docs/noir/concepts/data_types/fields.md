@@ -115,7 +115,7 @@ example:
 
 ```rust
 fn main() {
-    let field = 2
+    let field = 2;
     let pow = field.pow_32(4);
     assert(pow == 16);
 }
@@ -131,7 +131,7 @@ example:
 
 ```rust
 fn main() {
-    let field = 2
+    let field = 2;
     field.assert_max_bit_size::<32>();
 }
 ```

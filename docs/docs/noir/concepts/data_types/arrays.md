@@ -140,7 +140,7 @@ example
 
 ```rust
 fn main() {
-    let arr = [42, 32]
+    let arr: [u8; 2] = [42, 32]
     let sorted_ascending = arr.sort_via(|a, b| a <= b);
     assert(sorted_ascending == [32, 42]); // verifies
 
